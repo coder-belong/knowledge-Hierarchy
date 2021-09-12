@@ -144,9 +144,9 @@
 
 2. 在个人中心里**验证邮箱**
 3. 将npm下**载**地址**切换为官网**的
-  
+
   - 指令命令：`npm config set registry=http://registry.npmjs.org`
-  
+
 4. 修改**package.json**
 
     <img src="images/02-Node.js 高级篇.assets/image-20210719005816524.png" alt="image-20210719005816524" style="zoom:50%;" />
@@ -730,7 +730,8 @@
 
 
 
-
+>注：静态资源文件夹下**必须要有一个index.html文件**，作为入口文件
+>
 
 
 

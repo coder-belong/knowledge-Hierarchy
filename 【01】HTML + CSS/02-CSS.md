@@ -838,7 +838,7 @@ box-shadow: 2px 5px 10px 3px #e0e0e0;
     - 二个值时，表示x轴和y轴上的倾斜度数
 
     - ```css
-    transform: skew(45deg)
+      transform: skew(45deg)
       ```
       
       
@@ -1491,7 +1491,7 @@ background: linear-gradient(90deg,red,#ff3264);
         border-bottom: 100px solid slateblue;
         /* 将该盒子旋转180度 */
         transform: rotate(180deg);
-}
+    }
     ```
     
     
@@ -1634,7 +1634,7 @@ background: linear-gradient(90deg,red,#ff3264);
 - 特点：当画布滚动时，开启固定定位的元素会固定不动
 
 - ```css
-span {
+  span {
       position: fixed;
       top: 0px;
   }
@@ -1898,7 +1898,6 @@ span {
     - both：要求元素的顶部低于之前生成的所有浮动元素的底部
     
     -  none：默认值，无特殊要求
-      
     
 - 一般就只用在非浮动元素上，可以让非浮动元素与浮动元素不层叠
 
